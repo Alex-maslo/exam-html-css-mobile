@@ -1,0 +1,69 @@
+@media screen and (max-width: 375px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 0 calc((100vw - 333px) / 2);
+    background: #ff7315;
+
+    color: #f9f9f9;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .container,
+  .reviews,
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 0 calc((100vw - 333px) / 2);
+    background: #faf4f2;
+    font-size: 10px;
+  }
+
+  /*******************  header  ************/
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .header__info {
+    padding: 0;
+  }
+
+  .header__info-hi {
+    display: block;
+    margin: 36px 0 14px 0;
+  }
+
+  .header__info-title {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+
+  .header__info-description {
+    margin: 25px 0 17px 0;
+  }
+
+  .header__info-icons {
+    margin: 0 auto;
+  }
+
+  .header__button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 0 0 0;
+  }
+
+  .request {
+    margin: 0;
+  }
+
+  .header__photo {
+    display: none;
+  }
+}
