@@ -24,6 +24,15 @@
     font-size: 10px;
   }
 
+  .advantages__title,
+  .portfolio__title,
+  .plans__title,
+  .reviews__title,
+  .blog__title {
+    font-size: 3.2em;
+    line-height: 1.9em;
+  }
+
   /*******************  header  ************/
   .header {
     display: flex;
@@ -66,4 +75,80 @@
   .header__photo {
     display: none;
   }
+
+  /*******************  section-project  ************/
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 109px;
+    margin-left: calc(-1 * ((100vw - 333px) / 2));
+    margin-right: calc(-1 * ((100vw - 333px) / 2));
+    padding: 0 calc((100vw - 333px) / 2);
+    width: auto;
+    height: auto;
+    border-radius: 35px;
+    background: #ff7315;
+  }
+
+  .project__photo {
+    order: 1;
+    padding: 67px 17px 70px 17px;
+  }
+
+  .project__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 100px 0 0 0;
+  }
+
+  .project__content h2:nth-child(1) {
+    font-size: 4.8em;
+  }
+
+  .project__content p:nth-child(2) {
+    margin-top: 25px;
+  }
+
+  .project__content h2:nth-child(3) {
+    margin: 78px 0;
+    font-size: 3.2em;
+  }
+
+  .project__content p:nth-child(4) {
+    padding: 2px 0 0 19px;
+    font-size: 2em;
+    color: rgba(249, 249, 249, 0.9);
+    font-style: normal;
+    line-height: 2.25em;
+  }
+
+  /*******************  section-advantages  ************/
+  .advantages {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    /*column-gap: 4vw;*/
+    /*row-gap: 100px;*/
+    /*justify-content: center;*/
+    /*padding-top: 125px;*/
+    grid-template-areas:
+      "title"
+      "item1"
+      "item2"
+      "item3"
+      "item4";
+  }
+
+  /*.advantages__title {*/
+  /*  margin: 0 0 64px 0;*/
+  /*}*/
+  /*.advantages__item-text {*/
+  /*  padding: 0 40px;*/
+  /*}*/
+  /*.advantages__item--1 {*/
+  /*  margin: 0 0 0 0;*/
+  /*}*/
+  /*  end media*/
 }
